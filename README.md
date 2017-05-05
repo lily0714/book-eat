@@ -18,13 +18,13 @@ weight:900px;
 height:250px;
 }
 .k-ad{
-float:left;
+
 weight:700px;
 height:250px;
 background-color:#424200;
 }
 .login{
-float:right;
+
 weight:200px;
 height:250px;
 background-color:#0080FF;
