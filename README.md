@@ -4,9 +4,9 @@ background-color:#CEFFCE;
 weight:900px;
 }
 .logo{
-weight:140px;
+weight:210px;
 height:100px;
-background-color:#F75000;
+
 }
 .menu{
 weight:900px;
@@ -52,7 +52,7 @@ background-color:#FF00FF;
 </style>
 <body>
    <div class="logo">
-   <img src="https://book-eat/bookandeat (2).png" width="140" height="30">
+   <img src="https://book-eat/bookandeat (2).png" width="430" height="100">
    </div>
    <div class="menu">
    <p>資訊連結列</p>
