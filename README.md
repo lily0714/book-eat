@@ -52,7 +52,7 @@ background-color:#FF00FF;
 </style>
 <body>
    <div class="logo">
-   <p>logo</p>
+   <p>logo1</p>
    </div>
    <div class="menu">
    <p>資訊連結列</p>
