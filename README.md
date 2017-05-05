@@ -4,8 +4,8 @@ background-color:#CEFFCE;
 weight:900px;
 }
 .logo{
-weight:210px;
-height:100px;
+weight:240px;
+height:180px;
 
 }
 .menu{
