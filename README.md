@@ -52,7 +52,7 @@ background-color:#FF00FF;
 </style>
 <body>
    <div class="logo">
-   <img src="https://book-eat/bookandeat.png">
+   <img src="http://book-eat/bookandeat.png">
    </div>
    <div class="menu">
    <p>資訊連結列</p>
