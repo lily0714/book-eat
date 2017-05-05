@@ -18,13 +18,13 @@ weight:900px;
 height:250px;
 }
 .k-ad{
-align="left";
+
 weight:700px;
 height:250px;
 background-color:#424200;
 }
 .login{
-align="right"
+
 weight:200px;
 height:250px;
 background-color:#0080FF;
@@ -57,7 +57,7 @@ background-color:#FF00FF;
    <div class="menu">
    <p>資訊連結列</p>
    </div>
-   <div class="ad-login">
+   <div class="ad-login row col-xs-4">
       <div class="k-ad">
       <p>k中廣告</p>
       </div>
