@@ -52,8 +52,8 @@ background-color:#FF00FF;
 </style>
 <body>
    <div class="logo">
-   <p>logo1</p>
-   </div>
+   <img src="https://book-eat/bookandeat (2).png" width="140" height="30">
+   </div>
    <div class="menu">
    <p>資訊連結列</p>
    </div>
