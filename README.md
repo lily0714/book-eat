@@ -64,9 +64,9 @@ height:250px;
 border: 5px ridge black; 
 margin-top:10px; 
 margin-left:20px; 
-margin-right:50px; 
+margin-right:20px; 
 margin-bottom:10px; 
-
+padding-right:50px;
 }
 ul{
 list-style-type:none;
