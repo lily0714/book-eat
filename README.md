@@ -3,17 +3,17 @@
     $(document).ready(function() {
      $("#login_button1").css("color", "blue");
      $("#login_button1").css("background", "white");});
-     $("#button1").mouseenter(function(){
-        $("#button1").css("color", "white");
-        $("#button1").css("background", "blue");
+     $("#login_button1").mouseenter(function(){
+        $("#login_button1").css("color", "white");
+        $("#login_button1").css("background", "blue");
       });
-     $("#button1").mouseenter(function(){
-        $("#button1").css("color", "white");
-        $("#button1").css("background", "blue");
+     $("#login_button1").mouseenter(function(){
+        $("#login_button1").css("color", "white");
+        $("#login_button1").css("background", "blue");
       });
-$("#button1").mouseout(function(){
-        $("#button1").css("color", "blue");
-        $("#button1").css("background", "white");
+$("#login_button1").mouseout(function(){
+        $("#login_button1").css("color", "blue");
+        $("#login_button1").css("background", "white");
       });
      </script>
 <style>
