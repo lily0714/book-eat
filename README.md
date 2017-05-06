@@ -1,5 +1,24 @@
 <script src="path/to/ripple.js"></script>
+
 <style>
+.ripple-container {
+}
+.ripple-container .ripple{
+    background-color: rgba(255,255,255,0.4);
+    animation: ripple 2s forwards cubic-bezier(0, 0, 0.2, 1);
+}
+@keyframes ripple {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+    80% {
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+    }
+}   
 body{
 background-color:#CEFFCE;
 weight:900px;
@@ -98,3 +117,6 @@ background-color:#FF00FF;
    
    
 </body>
+Array.prototype.forEach.call(document.querySelectorAll('[data-ripple]'), function(element){
+  new RippleEffect(element);
+}); 
