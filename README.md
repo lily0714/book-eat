@@ -1,28 +1,5 @@
-<script src="path/to/ripple.js"></script>
-<script language="JavaScript">
-Array.prototype.forEach.call(document.querySelectorAll('[data-ripple]'), function(element){
-  new RippleEffect(element);
-}); 
-</script>
+
 <style>
-.ripple-container {
-}
-.ripple-container .ripple{
-    background-color: rgba(255,255,255,0.4);
-    animation: ripple 2s forwards cubic-bezier(0, 0, 0.2, 1);
-}
-@keyframes ripple {
-    0% {
-        transform: scale(0);
-        opacity: 1;
-    }
-    80% {
-        transform: scale(1);
-    }
-    100% {
-        opacity: 0;
-    }
-}   
 body{
 background-color:#CEFFCE;
 weight:900px;
@@ -95,10 +72,8 @@ background-color:#FF00FF;
       </div>
       <div class="login">
       <p>登入</p>
-<input type="button" value=" 登 入 " style="border-radius: 10px;" >
-<input type="button" value=" 註 冊 " style="border-radius: 10px;" >
-<button data-ripple class = "login_button">Click WWW</button>
-<button data-ripple class = "login_button">Click Me</button>
+<button class = "login_button"> 登 入 </button>
+<button class = "login_button"> 註 冊 </button>
       </div>
    </div>
    <p></p>
