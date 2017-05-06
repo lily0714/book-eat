@@ -33,6 +33,7 @@ border-radius: 10px;
 width:150px;
 height:50px;
 font-size:20px;
+font-family:Microsoft JhengHei;
 }
 .logo{
 weight:160px;
@@ -101,8 +102,10 @@ background-color:#FF00FF;
       <p>登入</p>
 <button class = "login_button" font face="細明體"> 登 入 </button>
 <button class = "login_button" font face="細明體"> 註 冊 </button>
-<input type="button" id="login_button1" font face="微軟正黑體" class = "login_button" value=" 登 入 " onclick="window.location='https://www.instagram.com/14_shan/';" />
-<input type="button" id="login_button2" font face="標楷體" class = "login_button" value=" 註 冊 " onclick="window.location='https://www.instagram.com/14_shan/';" />
+<b>
+<input type="button" id="login_button1" class = "login_button" value=" 登 入 " onclick="window.location='https://www.instagram.com/14_shan/';" />
+<input type="button" id="login_button2" class = "login_button" value=" 註 冊 " onclick="window.location='https://www.instagram.com/14_shan/';" />
+</b>
       </div>
    </div>
    <p></p>
