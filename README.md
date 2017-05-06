@@ -56,6 +56,7 @@ height:250px;
 /*background-color:#424200;*/
 }
 .login{
+float:right;
 weight:200px;
 height:250px;
 /*background-color:#0080FF;*/
