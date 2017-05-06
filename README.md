@@ -88,7 +88,7 @@ background-color:#FF00FF;
       <p>登入</p>
 <button class = "login_button"> 登 入 </button>
 <button class = "login_button"> 註 冊 </button>
-<input type="button" id="login_button1" class = "login_button" value=" 登 入 " onclick="window.location='https://www.instagram.com/14_shan/';" />
+<input type="button" id="login_button1" class = "login_button" value=" 登 入 !!" onclick="window.location='https://www.instagram.com/14_shan/';" />
       </div>
    </div>
    <p></p>
