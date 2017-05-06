@@ -1,5 +1,9 @@
 <script src="path/to/ripple.js"></script>
-
+<script language="JavaScript">
+Array.prototype.forEach.call(document.querySelectorAll('[data-ripple]'), function(element){
+  new RippleEffect(element);
+}); 
+</script>
 <style>
 .ripple-container {
 }
@@ -117,6 +121,4 @@ background-color:#FF00FF;
    
    
 </body>
-Array.prototype.forEach.call(document.querySelectorAll('[data-ripple]'), function(element){
-  new RippleEffect(element);
-}); 
+
