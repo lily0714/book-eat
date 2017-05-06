@@ -3,7 +3,6 @@
     $(document).ready(function() {
      $("#login_button1").css("color", "green");
      $("#login_button1").css("background", "white");
-     });
      $("#login_button1").mouseenter(function(){
         $("#login_button1").css("color", "white");
         $("#login_button1").css("background", "green");
@@ -88,7 +87,7 @@ background-color:#FF00FF;
       <p>登入</p>
 <button class = "login_button"> 登 入 </button>
 <button class = "login_button"> 註 冊 </button>
-<input type="button" id="login_button1" class = "login_button" value=" 登 入 !!" onclick="window.location='https://www.instagram.com/14_shan/';" />
+<input type="button" id="login_button1" class = "login_button" value=" 登 入 " onclick="window.location='https://www.instagram.com/14_shan/';" />
       </div>
    </div>
    <p></p>
