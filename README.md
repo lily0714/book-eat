@@ -18,16 +18,19 @@ weight:900px;
 height:250px;
 }
 .k-ad{
-
+float:left;
 weight:700px;
 height:250px;
-background-color:#424200;
+/*background-color:#424200;*/
 }
 .login{
-
 weight:200px;
 height:250px;
-background-color:#0080FF;
+/*background-color:#0080FF;*/
+}
+.news-good{
+weight:900px;
+height:450px;
 }
 .news{
 weight:450px;
@@ -52,12 +55,12 @@ background-color:#FF00FF;
 </style>
 <body>
    <div class="logo">
-   <img src="http://book-eat/bookandeat.png">
+   <img src="http://lily0714.github.io/book-eat/bookandeat.png">
    </div>
    <div class="menu">
    <p>資訊連結列</p>
    </div>
-   <div class="ad-login row col-xs-4">
+   <div class="ad-login">
       <div class="k-ad">
       <p>k中廣告</p>
       </div>
@@ -66,11 +69,13 @@ background-color:#FF00FF;
       </div>
    </div>
    <p></p>
-   <div class="news">
-   <p>最新動態</p>
-   </div>
-   <div class="good">
-   <p>傑出動態</p>
+   <div class="news-good">
+      <div class="news">
+      <p>最新動態</p>
+      </div>
+      <div class="good">
+      <p>傑出動態</p>
+      </div>
    </div>
    <p></p>
    <div class="fbad">
