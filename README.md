@@ -80,7 +80,7 @@ padding-bottom:-20px;
 weight:300px;
 height:250px;
 background-color:#FFFFFF;
-display:none;
+
 }
 ul{
 list-style-type:none;
