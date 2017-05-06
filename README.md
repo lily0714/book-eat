@@ -66,7 +66,8 @@ margin-top:10px;
 margin-left:20px; 
 margin-right:20px; 
 margin-bottom:10px; 
-padding-right:50px;
+padding-right:60px;
+padding-bottom:-20px;
 }
 ul{
 list-style-type:none;
