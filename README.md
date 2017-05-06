@@ -1,14 +1,14 @@
 <script type='text/javascript' src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
   <script type='text/javascript'>
     $(document).ready(function() {
-     $("#login_button1").css("color", "blue");
+     $("#login_button1").css("color", "green");
      $("#login_button1").css("background", "white");});
      $("#login_button1").mouseenter(function(){
         $("#login_button1").css("color", "white");
-        $("#login_button1").css("background", "blue");
+        $("#login_button1").css("background", "green");
       });
 $("#login_button1").mouseout(function(){
-        $("#login_button1").css("color", "blue");
+        $("#login_button1").css("color", "green");
         $("#login_button1").css("background", "white");
       });
      </script>
