@@ -59,11 +59,11 @@ height:250px;
 weight:200px;
 height:250px;
 /*background-color:#0080FF;*/
-border: 1px solid black; 
-margin-top:5px; 
-margin-left:10%; 
-margin-right:40%; 
-margin-bottom:20px; 
+border: 5px ridge black; 
+margin-top:10px; 
+margin-left:20px; 
+margin-right:20px; 
+margin-bottom:10px; 
 
 }
 .news-good{
