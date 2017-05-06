@@ -120,17 +120,9 @@ background-color:#FF00FF;
    </div>
    <div class="ad-login">
       <div class="k-ad">
-      <p>k中廣告</p>
+      <p>1k中廣告</p>
       </div>
-      <div class="loginframe">
-     登入會員               <input id="loginclose" type="button" value="關閉"/>
-     <p></p>
-     <form>
-     帳號:<input type="text" placeholder="請輸入帳號">
-     密碼:<input type="text" placeholder="請輸入密碼">
-     </form>
-     <input type="button" value="登 入"/>
-     </div>
+      
       <div class="login">
       <p>登入</p>
 <b>
@@ -162,7 +154,15 @@ background-color:#FF00FF;
    <div class="link">
    <p>重要連結</p>
    </div>
-
+<div class="loginframe">
+     登入會員               <input id="loginclose" type="button" value="關閉"/>
+     <p></p>
+     <form>
+     帳號:<input type="text" placeholder="請輸入帳號">
+     密碼:<input type="text" placeholder="請輸入密碼">
+     </form>
+     <input type="button" value="登 入"/>
+     </div>
    
    
 </body>
