@@ -79,6 +79,7 @@ padding-bottom:-20px;
 .loginframe{
 weight:400px;
 height:300px;
+background-color:#FFFFFF;
 display:none;
 }
 ul{
