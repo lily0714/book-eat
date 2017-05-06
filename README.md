@@ -59,7 +59,7 @@ height:250px;
 }
 .k-ad{
 float:left;
-weight:700px;
+weight:300px;  /*700*/
 height:250px;
 /*background-color:#424200;*/
 }
