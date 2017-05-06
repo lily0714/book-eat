@@ -59,7 +59,11 @@ height:250px;
 weight:200px;
 height:250px;
 /*background-color:#0080FF;*/
-
+margin-top:5px; 
+margin-left:10%; 
+margin-right:40%; 
+margin-bottom:20px; 
+border: 1px solid 000000; 
 }
 .news-good{
 weight:900px;
@@ -100,8 +104,6 @@ background-color:#FF00FF;
       </div>
       <div class="login">
       <p>登入</p>
-<button class = "login_button" font face="細明體"> 登 入 </button>
-<button class = "login_button" font face="細明體"> 註 冊 </button>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " onclick="window.location='https://www.instagram.com/14_shan/';" />
 <input type="button" id="login_button2" class = "login_button" value=" 註 冊 " onclick="window.location='https://www.instagram.com/14_shan/';" />
