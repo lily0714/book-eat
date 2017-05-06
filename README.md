@@ -21,6 +21,13 @@ $("#login_button2").mouseout(function(){
         $("#login_button2").css("color", "green");
         $("#login_button2").css("background", "white");
       });
+      
+      $("#login_botton1").css({cursor:"pointer"}).click(function(){
+          $(".loginframe").fadeIn("fast");
+       });
+       $("#loginclose").css({cursor:"pointer"}).click(function(){
+          $(".loginframe").fadeOut("fast");
+       });
       });
      </script>
 <style>
@@ -69,6 +76,11 @@ margin-bottom:10px;
 padding-right:60px;
 padding-bottom:-20px;
 }
+loginframe{
+weight:400px;
+height:300px;
+display:none;
+}
 ul{
 list-style-type:none;
 }
@@ -109,6 +121,15 @@ background-color:#FF00FF;
       <div class="k-ad">
       <p>k中廣告</p>
       </div>
+      <div class="loginframe">
+     登入會員               <input id="loginclose" type="button" value="關閉"/>
+     <p></p>
+     <form>
+     帳號:<input type="text" placeholder="請輸入帳號">
+     密碼:<input type="text" placeholder="請輸入密碼">
+     </form>
+     <input type="button" value="登 入"/>
+     </div>
       <div class="login">
       <p>登入</p>
 <b>
@@ -121,6 +142,7 @@ background-color:#FF00FF;
 </li>
 </ul>
 </b>
+     
       </div>
    </div>
    <p></p>
