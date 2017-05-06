@@ -24,6 +24,7 @@ $("#login_button2").mouseout(function(){
       });
      </script>
 <style>
+
 body{
 background-color:#CEFFCE;
 weight:900px;
@@ -66,6 +67,9 @@ margin-left:20px;
 margin-right:20px; 
 margin-bottom:10px; 
 
+}
+ul{
+list-style-type:none;
 }
 .news-good{
 weight:900px;
