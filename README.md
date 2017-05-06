@@ -76,7 +76,7 @@ margin-bottom:10px;
 padding-right:60px;
 padding-bottom:-20px;
 }
-loginframe{
+.loginframe{
 weight:400px;
 height:300px;
 display:none;
