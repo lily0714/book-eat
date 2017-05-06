@@ -28,7 +28,7 @@ height:250px;
 weight:200px;
 height:250px;
 /*background-color:#0080FF;*/
-border-radius: 10px 20px 30px 40px;
+border-radius: 10px;
 }
 .news-good{
 weight:900px;
