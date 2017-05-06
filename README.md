@@ -10,7 +10,18 @@
 $("#login_button1").mouseout(function(){
         $("#login_button1").css("color", "green");
         $("#login_button1").css("background", "white");
-      });});
+      });
+      $("#login_button2").css("color", "green");
+     $("#login_button2").css("background", "white");
+     $("#login_button2").mouseenter(function(){
+        $("#login_button2").css("color", "white");
+        $("#login_button2").css("background", "green");
+      });
+$("#login_button2").mouseout(function(){
+        $("#login_button2").css("color", "green");
+        $("#login_button2").css("background", "white");
+      });
+      });
      </script>
 <style>
 body{
@@ -19,6 +30,9 @@ weight:900px;
 }
 .login_button{
 border-radius: 10px;
+width:100px;
+height:15px;
+font-size:20px;
 }
 .logo{
 weight:160px;
@@ -87,8 +101,8 @@ background-color:#FF00FF;
       <p>登入</p>
 <button class = "login_button" font face="細明體"> 登 入 </button>
 <button class = "login_button" font face="細明體"> 註 冊 </button>
-<input type="button" id="login_button1" font face="細明體" class = "login_button" value=" 登 入 " onclick="window.location='https://www.instagram.com/14_shan/';" />
-<input type="button" id="login_button1" font face="細明體" class = "login_button" value=" 註 冊 " onclick="window.location='https://www.instagram.com/14_shan/';" />
+<input type="button" id="login_button1" font face="微軟正黑體" class = "login_button" value=" 登 入 " onclick="window.location='https://www.instagram.com/14_shan/';" />
+<input type="button" id="login_button2" font face="標楷體" class = "login_button" value=" 註 冊 " onclick="window.location='https://www.instagram.com/14_shan/';" />
       </div>
    </div>
    <p></p>
