@@ -77,7 +77,7 @@ padding-right:60px;
 padding-bottom:-20px;
 }
 .loginframe{
-weight:400px;
+weight:300px;
 height:250px;
 background-color:#FFFFFF;
 display:none;
