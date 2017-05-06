@@ -97,7 +97,7 @@ background-color:#FF00FF;
       <p>登入</p>
 <input type="button" value=" 登 入 " style="border-radius: 10px;" >
 <input type="button" value=" 註 冊 " style="border-radius: 10px;" >
-<button data-ripple class = "login_button">Click Me</button>
+<button data-ripple class = "login_button">Click WWW</button>
 <button data-ripple class = "login_button">Click Me</button>
       </div>
    </div>
