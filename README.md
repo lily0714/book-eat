@@ -135,7 +135,7 @@ background-color:#FF00FF;
 <b>
 <ul>
 <li>
-<input type="button" id="login_button1" class = "login_button" value=" 登 入 " onclick="window.location='https://www.instagram.com/14_shan/';" />
+<input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
 </li>
 <li>
 <input type="button" id="login_button2" class = "login_button" value=" 註 冊 " onclick="window.location='https://www.instagram.com/14_shan/';" />
