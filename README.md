@@ -30,8 +30,8 @@ weight:900px;
 }
 .login_button{
 border-radius: 10px;
-width:100px;
-height:15px;
+width:150px;
+height:50px;
 font-size:20px;
 }
 .logo{
