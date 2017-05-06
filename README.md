@@ -1,4 +1,21 @@
-
+<script type='text/javascript' src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
+  <script type='text/javascript'>
+    $(document).ready(function() {
+     $("#login_button1").css("color", "blue");
+     $("#login_button1").css("background", "white");});
+     $("#button1").mouseenter(function(){
+        $("#button1").css("color", "white");
+        $("#button1").css("background", "blue");
+      });
+     $("#button1").mouseenter(function(){
+        $("#button1").css("color", "white");
+        $("#button1").css("background", "blue");
+      });
+$("#button1").mouseout(function(){
+        $("#button1").css("color", "blue");
+        $("#button1").css("background", "white");
+      });
+     </script>
 <style>
 body{
 background-color:#CEFFCE;
@@ -74,6 +91,7 @@ background-color:#FF00FF;
       <p>登入</p>
 <button class = "login_button"> 登 入 </button>
 <button class = "login_button"> 註 冊 </button>
+<input type="button" id="login_button1" class = "login_button" value=" 登 入 " onclick="window.location='https://www.instagram.com/14_shan/';" />
       </div>
    </div>
    <p></p>
