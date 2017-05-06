@@ -19,7 +19,7 @@ height:250px;
 }
 .k-ad{
 float:left;
-weight:800px;
+weight:700px;
 height:250px;
 /*background-color:#424200;*/
 }
@@ -33,14 +33,15 @@ weight:900px;
 height:450px;
 }
 .news{
+float:left;
 weight:450px;
 height:450px;
-background-color:#0080FF;
+/*background-color:#0080FF;*/
 }
 .good{
 weight:450px;
 height:450px;
-background-color:#9D9D9D;
+/*background-color:#9D9D9D;*/
 }
 .fbad{
 weight:900px;
@@ -63,6 +64,7 @@ background-color:#FF00FF;
    <div class="ad-login">
       <div class="k-ad">
       <p>k中廣告</p>
+      
       </div>
       <div class="login">
       <p>登入</p>
