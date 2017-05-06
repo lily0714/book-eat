@@ -7,10 +7,6 @@
         $("#login_button1").css("color", "white");
         $("#login_button1").css("background", "blue");
       });
-     $("#login_button1").mouseenter(function(){
-        $("#login_button1").css("color", "white");
-        $("#login_button1").css("background", "blue");
-      });
 $("#login_button1").mouseout(function(){
         $("#login_button1").css("color", "blue");
         $("#login_button1").css("background", "white");
