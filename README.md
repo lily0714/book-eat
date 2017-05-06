@@ -56,7 +56,7 @@ background-color:#FF00FF;
 </style>
 <body>
    <div class="logo">
-   <img src="http://lily0714.github.io/book-eat/bookandeat.png">
+   <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
    </div>
    <div class="menu">
    <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋</p>
