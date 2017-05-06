@@ -71,7 +71,7 @@ background-color:#FF00FF;
       <p>登入</p>
       <button type="button">登 入</button>
       <button type="button">註 冊</button>
-
+<input type="button" value="我是按鈕" style="border-radius: 10px;" >
       </div>
    </div>
    <p></p>
