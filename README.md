@@ -1,9 +1,12 @@
+<script src="path/to/ripple.js"></script>
 <style>
 body{
 background-color:#CEFFCE;
 weight:900px;
 }
-
+.login_button{
+border-radius: 10px;
+}
 .logo{
 weight:160px;
 height:120px;
@@ -28,7 +31,7 @@ height:250px;
 weight:200px;
 height:250px;
 /*background-color:#0080FF;*/
-border-radius: 10px;
+
 }
 .news-good{
 weight:900px;
@@ -69,9 +72,10 @@ background-color:#FF00FF;
       </div>
       <div class="login">
       <p>登入</p>
-      <button type="button">登 入</button>
-      <button type="button">註 冊</button>
-<input type="button" value="我是按鈕" style="border-radius: 10px;" >
+<input type="button" value=" 登 入 " style="border-radius: 10px;" >
+<input type="button" value=" 註 冊 " style="border-radius: 10px;" >
+<button data-ripple class = "login_button">Click Me</button>
+<button data-ripple class = "login_button">Click Me</button>
       </div>
    </div>
    <p></p>
