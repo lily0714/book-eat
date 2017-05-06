@@ -67,6 +67,9 @@ background-color:#FF00FF;
       </div>
       <div class="login">
       <p>登入</p>
+      <button type="button">登 入</button>
+      <button type="button">註 冊</button>
+      <li class="xs_li_16" style="position: relative;"><a href="javascript:;" style="position: relative; z-index: 2;">效果16</a><canvas width="138" height="52" style="position:absolute; top:0; left:0; z-index:1;"></canvas></li>
       </div>
    </div>
    <p></p>
