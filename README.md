@@ -59,11 +59,12 @@ height:250px;
 weight:200px;
 height:250px;
 /*background-color:#0080FF;*/
+border: 1px solid black; 
 margin-top:5px; 
 margin-left:10%; 
 margin-right:40%; 
 margin-bottom:20px; 
-border: 1px solid 000000; 
+
 }
 .news-good{
 weight:900px;
