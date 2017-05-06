@@ -64,7 +64,6 @@ background-color:#FF00FF;
    <div class="ad-login">
       <div class="k-ad">
       <p>k中廣告</p>
-      
       </div>
       <div class="login">
       <p>登入</p>
