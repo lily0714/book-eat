@@ -59,7 +59,7 @@ background-color:#FF00FF;
    <img src="http://lily0714.github.io/book-eat/bookandeat.png">
    </div>
    <div class="menu">
-   <p>資訊連結列</p>
+   <p>資訊連結列11</p>
    </div>
    <div class="ad-login">
       <div class="k-ad">
