@@ -110,6 +110,8 @@ left:1px;
 }
 #loginclose{
 cursor:pointer;
+position:relative;
+right:1px;
 }
 #ylogin{
 float:right;
@@ -188,7 +190,7 @@ background-color:transparent;
    <p></p>
    <div class="news-good">
       <div class="news">
-      <p>最新動態1</p>
+      <p>最新動態</p>
       </div>
       <div class="good">
       <p>傑出動態</p>
