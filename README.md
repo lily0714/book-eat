@@ -109,8 +109,6 @@ cursor:pointer;
 }
 #ylogin{
 float:right;
-position:relative;
-right:50px;
 color:green;
 background:white;
 weight:100px;
@@ -181,7 +179,7 @@ background-color:transparent;
    <p></p>
    <div class="news-good">
       <div class="news">
-      <p>最新動態</p>
+      <p>最新動態1</p>
       </div>
       <div class="good">
       <p>傑出動態</p>
