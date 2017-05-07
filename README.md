@@ -91,7 +91,7 @@ padding-right:60px;
 padding-bottom:-20px;
 }
 .loginframe{
-weight:448px;
+weight:450px;
 height:250px;
 background-color:#FFFFFF;
 border-radius:1px;
@@ -103,6 +103,10 @@ left:30%;
 z-index:3;
 display:none;
 opacity:1;
+}
+#logintitle{
+position:relative;
+left:1px;
 }
 #loginclose{
 cursor:pointer;
@@ -160,7 +164,7 @@ background-color:transparent;
 }
 </style>
 <body>
-   <div class="main">
+<div class="main">
    <div class="logo">
    <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
    </div>
@@ -184,7 +188,7 @@ background-color:transparent;
    <p></p>
    <div class="news-good">
       <div class="news">
-      <p>最新動態</p>
+      <p>最新動態1</p>
       </div>
       <div class="good">
       <p>傑出動態</p>
@@ -198,9 +202,10 @@ background-color:transparent;
    <p>重要連結</p>
    </div>
    
-   </div>
+ </div>
+   /*主要內容外的東西*/
    <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
-   
+   /*彈出視窗在這*/
     <div class="loginframe">
 <img id="logintitle" src="http://lily0714.github.io/book-eat/登入框頭1.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="loginclose" weight="50" height="50">
 <br>
