@@ -103,11 +103,11 @@ z-index:3;
 display:none;
 }
 .login-t-c{
-weight:400px;
+weight:450px;
 height:50px;
 }
 .logintitle{
-weight:350px;
+weight:400px;
 height:50px;
 background-image:url("https://lily0714.github.io/book-eat/登入框頭.png");
 background-repeat: no-repeat; 
@@ -165,7 +165,7 @@ background-color:#FF00FF;
           </div>
      <p></p>
      <form>
-     帳號:<input type="text" placeholder="請輸入帳號"><br>
+     帳號:<input type="text" placeholder="請輸入帳號"><br><br>
      密碼:<input type="text" placeholder="請輸入密碼"><br>
      </form>
      <input type="button" value="登 入"/>
