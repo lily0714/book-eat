@@ -102,17 +102,17 @@ left:30%;
 z-index:3;
 display:none;
 }
-#logintitle{
-
-}
 #loginclose{
 cursor:pointer;
-
 }
 #ylogin{
 float:right;
 position:relative;
 right:50px;
+bottom:20px;
+}
+form{
+align:center;
 }
 .news-good{
 weight:900px;
@@ -145,7 +145,7 @@ background-color:#FF00FF;
    <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
    </div>
    <div class="menu">
-   <p>資訊連結列:認識我們 預約座位 交通資訊3 常見問題2 意見回饋1</p>
+   <p>資訊連結列:認識我們 預約座位4 交通資訊3 常見問題2 意見回饋1</p>
    </div>
    <div class="ad-login">
       <div class="k-ad">
@@ -154,7 +154,7 @@ background-color:#FF00FF;
       <div class="hidebody"></div>
       <div class="loginframe">
 <img id="logintitle" src="http://lily0714.github.io/book-eat/登入框頭1.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="loginclose" weight="50" height="50">
-<br><br>
+<br>
      <form>
      <br>
      帳號:<input type="text" placeholder="請輸入帳號"><br><br>
