@@ -30,10 +30,6 @@ $(document).ready(function() {
         $(".loginframe").fadeOut("fast");
         $(".main").animate({opacity:'1'});
    });
-   $(".main").click(function(){
-        $(".loginframe").fadeOut("fast");
-        $(".main").animate({opacity:'1'});
-   });
 });
 </script>
 <style>
@@ -158,7 +154,6 @@ background-color:transparent;
 </style>
 <body>
    <div class="main">
-   
    <div class="logo">
    <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
    </div>
