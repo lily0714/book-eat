@@ -112,7 +112,6 @@ right:50px;
 bottom:20px;
 }
 form{
-float:left;
 position:relative;
 left:50px;
 }
