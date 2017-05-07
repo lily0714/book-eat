@@ -23,7 +23,7 @@ $(document).ready(function() {
    });
    /*開啟登入框loginframe*/
    $("#login_button1").click(function(){
-       $(".hidebody").fadeIn("fast");
+       $(".hidebody").css({display:'block'});
         $(".loginframe").fadeIn("fast");
    });
    $("#loginclose").click(function(){
@@ -158,7 +158,7 @@ background-color:transparent;
    </div>
    <div class="hidebody"></div>
    <div class="menu">
-   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋1</p>
+   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋</p>
    </div>
    <div class="ad-login">
       <div class="k-ad">
