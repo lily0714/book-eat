@@ -86,6 +86,7 @@ padding-bottom:-20px;
 }
 .hidebody{
 display:none;
+weight:100%;
 height:100%;
 position:fixed;
 background-color:black;
@@ -180,7 +181,7 @@ background-color:#FF00FF;
    <p></p>
    <div class="news-good">
       <div class="news">
-      <p>最新動態</p>
+      <p>最新動態1</p>
       </div>
       <div class="good">
       <p>傑出動態</p>
