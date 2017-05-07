@@ -90,7 +90,7 @@ z-index:2;
 opacity:0.7;
 }
 .loginframe{
-weight:400px;
+weight:500px;
 height:250px;
 background-color:#FFFFFF;
 border-radius:2px;
@@ -105,12 +105,14 @@ display:none;
 weight:350px;
 height:50px;
 background-image:url("https://lily0714.github.io/book-eat/登入框頭.png");
+background-repeat: no-repeat; 
 }
 #loginclose{
 weight:50px;
 height:50px;
 cursor:pointer;
 background-image:url("https://lily0714.github.io/book-eat/登入框關閉.png");
+background-repeat: no-repeat; 
 }
 .news-good{
 weight:900px;
@@ -147,7 +149,7 @@ background-color:#FF00FF;
    </div>
    <div class="ad-login">
       <div class="k-ad">
-      <p>k中廣告</p>
+      <p>k中廣告1</p>
       </div>
       <div class="hidebody"></div>
       <div class="loginframe">
