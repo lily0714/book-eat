@@ -82,7 +82,7 @@ padding-bottom:-20px;
 display:none;
 weight:100%;
 height:100%;
-position:absolute;
+position:fixed;
 background-color:#000000;
 z-index:2;
 top:0;
