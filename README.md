@@ -112,7 +112,9 @@ right:50px;
 bottom:20px;
 }
 form{
-align:center;
+float:left;
+position:relative;
+left:50px;
 }
 .news-good{
 weight:900px;
