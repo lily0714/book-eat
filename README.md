@@ -83,11 +83,12 @@ padding-right:60px;
 padding-bottom:-20px;
 }
 .hidebody{
-display:none;
+
 weight:900px;
 height:100%;
 position:fixed;
 background-color:black;
+opacity:0.7;
 z-index:2;
 }
 .loginframe{
@@ -146,7 +147,7 @@ background-color:#FF00FF;
 position: fixed;
 bottom: 0;
 right: 0;
-rgba(255, 255, 255, 0.75);
+background-color:transparent;	
 }
 </style>
 <body>
@@ -155,7 +156,7 @@ rgba(255, 255, 255, 0.75);
    </div>
    <div class="hidebody"></div>
    <div class="menu">
-   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋1</p>
+   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋</p>
    </div>
    <div class="ad-login">
       <div class="k-ad">
