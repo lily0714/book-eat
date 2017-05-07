@@ -165,8 +165,9 @@ background-color:#FF00FF;
       <div class="hidebody"></div>
       <div class="loginframe">
           <div class="login-t-c">
-          <div class="logintitle"></div>
-          <div id="loginclose"></div>
+            <div class="logintitle">
+                <div id="loginclose"></div>
+            </div>
           </div>
      <p></p>
      <form>
@@ -189,7 +190,7 @@ background-color:#FF00FF;
    <p></p>
    <div class="news-good">
       <div class="news">
-      <p>最新動態</p>
+      <p>最新動態1</p>
       </div>
       <div class="good">
       <p>傑出動態</p>
