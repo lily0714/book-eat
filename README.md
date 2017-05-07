@@ -106,11 +106,21 @@ display:none;
 weight:450px;
 height:50px;
 }
+#logintitle{
+position:fixed;
+top:0px;
+left:0px;
+}
 #loginclose{
 cursor:pointer;
+position:fixed;
+top:0px;
+right:0px;
 }
 #ylogin{
-align:center;
+position:fixed;
+top:220px;
+right:0px;
 }
 .news-good{
 weight:900px;
@@ -152,7 +162,7 @@ background-color:#FF00FF;
       <div class="hidebody"></div>
       <div class="loginframe">
           <div class="login-t-c">
-            <img src="http://lily0714.github.io/book-eat/登入框頭.png" weight="400" height="50">
+            <img src="http://lily0714.github.io/book-eat/登入框頭.png" id="logintitle" weight="400" height="50">
             <img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="loginclose" weight="50" height="50">
           </div>
      <p></p>
