@@ -111,10 +111,11 @@ cursor:pointer;
 float:right;
 position:relative;
 right:50px;
+bottom:70px;
 color:green;
 background:white;
-weight:100px;
-height:100px;
+weight:110px;
+height:110px;
 font-family:Microsoft JhengHei;
 font-size:20px;
 border-radius:2px;
@@ -207,7 +208,7 @@ background-color:transparent;
      帳號:<input type="text" placeholder="請輸入帳號"><br><br>
      密碼:<input type="text" placeholder="請輸入密碼"><br>
      </form>
-     <input type="button" id="ylogin" value="   登   入  "/>
+     <input type="button" id="ylogin" value="   登   入  login"/>
      </div>
    
 </body>
