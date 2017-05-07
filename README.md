@@ -107,18 +107,18 @@ weight:450px;
 height:50px;
 }
 #logintitle{
-position:fixed;
+position:relative;
 top:0px;
 left:0px;
 }
 #loginclose{
 cursor:pointer;
-position:fixed;
+position:relative;
 top:0px;
 right:0px;
 }
 #ylogin{
-position:fixed;
+position:relative;
 top:220px;
 right:0px;
 }
@@ -173,7 +173,7 @@ background-color:#FF00FF;
      <input type="button" id="ylogin" value="登 入"/>
      </div>
      <div class="login">
-        <p>登入</p>
+        <p>登入1</p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
 <br>
