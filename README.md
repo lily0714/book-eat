@@ -23,12 +23,16 @@ $(document).ready(function() {
    });
    /*開啟登入框loginframe*/
    $("#login_button1").click(function(){
-       $(".hidebody").css({display:'block'});
+       $(".main").css({opacity:'0.5'});
         $(".loginframe").fadeIn("fast");
    });
    $("#loginclose").click(function(){
         $(".loginframe").fadeOut("fast");
-        $("html").animate({opacity:'1'});
+        $(".main").animate({opacity:'1'});
+   });
+   $(".main").click(function(){
+        $(".loginframe").fadeOut("fast");
+        $(".main").animate({opacity:'1'});
    });
 });
 </script>
@@ -153,27 +157,19 @@ background-color:transparent;
 }
 </style>
 <body>
-   <div class="logo">
+   <div class="main">
+   
+   <div class="logo">
    <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
    </div>
-   <div class="hidebody">我在這</div>
+   
    <div class="menu">
-   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋</p>
+   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回1饋</p>
    </div>
    <div class="ad-login">
       <div class="k-ad">
       <p>k中廣告</p>
       </div>
-      <div class="loginframe">
-<img id="logintitle" src="http://lily0714.github.io/book-eat/登入框頭1.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="loginclose" weight="50" height="50">
-<br>
-     <form>
-     <br>
-     帳號:<input type="text" placeholder="請輸入帳號"><br><br>
-     密碼:<input type="text" placeholder="請輸入密碼"><br>
-     </form>
-     <input type="button" id="ylogin" value="登 入"/>
-     </div>
      <div class="login">
         <p>登入</p>
 <b>
@@ -182,8 +178,7 @@ background-color:transparent;
 <br>
 <input type="button" id="login_button2" class = "login_button" value=" 註 冊 "/>
 </b>
-     
-      </div>
+     </div>
    </div>
    <p></p>
    <div class="news-good">
@@ -201,8 +196,20 @@ background-color:transparent;
    <div class="link">
    <p>重要連結</p>
    </div>
+   
+   </div>
    <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
    
+    <div class="loginframe">
+<img id="logintitle" src="http://lily0714.github.io/book-eat/登入框頭1.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="loginclose" weight="50" height="50">
+<br>
+     <form>
+     <br>
+     帳號:<input type="text" placeholder="請輸入帳號"><br><br>
+     密碼:<input type="text" placeholder="請輸入密碼"><br>
+     </form>
+     <input type="button" id="ylogin" value="登 入"/>
+     </div>
    
 </body>
 
