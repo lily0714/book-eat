@@ -23,12 +23,10 @@ $(document).ready(function() {
    });
    /*開啟登入框loginframe*/
    $("#login_button1").click(function(){
-        $(".hidebody").css("display","block");
         $(".loginframe").fadeIn("fast");
    });
    $("#loginclose").click(function(){
         $(".loginframe").fadeOut("fast");
-        $(".hidebody").css("display","none");
    });
 });
 </script>
