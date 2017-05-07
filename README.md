@@ -90,10 +90,10 @@ z-index:2;
 opacity:0.7;
 }
 .loginframe{
-weight:450px;
+weight:400px;
 height:250px;
 background-color:#FFFFFF;
-border-radius:2px;
+border-radius:1px;
 border-style:solid;
 border-color:green;
 position:fixed;
@@ -116,6 +116,8 @@ right:0px;
 }
 #ylogin{
 float:right;
+position:relative;
+right:20px;
 }
 .news-good{
 weight:900px;
