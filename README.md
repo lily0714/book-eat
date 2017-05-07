@@ -119,8 +119,8 @@ right:0px;
 }
 #ylogin{
 position:relative;
-top:220px;
-right:0px;
+top:120px;
+left:70px;
 }
 .news-good{
 weight:900px;
@@ -167,13 +167,13 @@ background-color:#FF00FF;
           </div>
      <p></p>
      <form>
-     ● 帳號:<input type="text" placeholder="請輸入帳號"><br><br>
-     ● 密碼:<input type="text" placeholder="請輸入密碼"><br>
+     帳號:<input type="text" placeholder="請輸入帳號"><br><br>
+     密碼:<input type="text" placeholder="請輸入密碼"><br>
      </form>
      <input type="button" id="ylogin" value="登 入"/>
      </div>
      <div class="login">
-        <p>登入1</p>
+        <p>登入</p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
 <br>
