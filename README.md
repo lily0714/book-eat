@@ -23,12 +23,12 @@ $(document).ready(function() {
    });
    /*開啟登入框loginframe*/
    $("#login_button1").click(function(){
-        $(".hidebody").css("display","block");
+        $(".hidebody").css("display":"block");
         $(".loginframe").fadeIn("fast");
    });
    $("#loginclose").click(function(){
         $(".loginframe").fadeOut("fast");
-        $(".hidebody").css("display","none");
+        $(".hidebody").css("display":"none");
    });
 });
 </script>
@@ -164,7 +164,7 @@ background-color:#FF00FF;
       <p>登入</p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " /><br>
-<input type="button" id="login_button2" class = "login_button" value=" 註 冊 "/> onclick="window.location='https://www.instagram.com/14_shan/';" />
+<input type="button" id="login_button2" class = "login_button" value=" 註 冊 "/>
 </b>
      
       </div>
