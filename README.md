@@ -23,12 +23,13 @@ $(document).ready(function() {
    });
    /*開啟登入框loginframe*/
    $("#login_button1").click(function(){
-        $("body").animate({opacity:'0.4'});
+        $("html").animate({opacity:'0.4'});
+        $(".loginframe")..animate({opacity:'1'});
         $(".loginframe").fadeIn("fast");
    });
    $("#loginclose").click(function(){
         $(".loginframe").fadeOut("fast");
-        $("body").animate({opacity:'1'});
+        $("html").animate({opacity:'1'});
    });
 });
 </script>
