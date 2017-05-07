@@ -33,9 +33,13 @@ $(document).ready(function() {
 });
 </script>
 <style>
+html{
+height:100%;
+}
 body{
 background-color:#CEFFCE;
 weight:900px;
+height:100%;
 }
 .login_button{
 border-radius:2px;
@@ -146,7 +150,7 @@ background-color:#FF00FF;
    </div>
    <div class="hidebody"></div>
    <div class="menu">
-   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋1</p>
+   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋</p>
    </div>
    <div class="ad-login">
       <div class="k-ad">
