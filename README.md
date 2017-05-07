@@ -90,7 +90,7 @@ z-index:2;
 opacity:0.7;
 }
 .loginframe{
-weight:500px;
+weight:400px;
 height:250px;
 background-color:#FFFFFF;
 border-radius:2px;
@@ -101,13 +101,19 @@ left:30%;
 z-index:3;
 display:none;
 }
+.login-t-c{
+weight:400px;
+height:50px;
+}
 .logintitle{
+float:left;
 weight:350px;
 height:50px;
 background-image:url("https://lily0714.github.io/book-eat/登入框頭.png");
 background-repeat: no-repeat; 
 }
 #loginclose{
+float:right;
 weight:50px;
 height:50px;
 cursor:pointer;
@@ -149,11 +155,11 @@ background-color:#FF00FF;
    </div>
    <div class="ad-login">
       <div class="k-ad">
-      <p>k中廣告1</p>
+      <p>k中廣告</p>
       </div>
       <div class="hidebody"></div>
       <div class="loginframe">
-          <div>
+          <div class="login-t-c">
           <div class="logintitle">登入會員
               <div id="loginclose"></div>
           </div>
