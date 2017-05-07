@@ -24,8 +24,8 @@ $(document).ready(function() {
    /*開啟登入框loginframe*/
    $("#login_button1").click(function(){
         $("html").animate({opacity:'0.4'});
-        $(".loginframe").animate({opacity:'1'});
         $(".loginframe").fadeIn("fast");
+        $(".loginframe").animate({opacity:'1'});
    });
    $("#loginclose").click(function(){
         $(".loginframe").fadeOut("fast");
@@ -153,7 +153,7 @@ background-color:#FF00FF;
    </div>
    <div class="ad-login">
       <div class="k-ad">
-      <p>k中廣告</p>
+      <p>k中廣告1</p>
       </div>
       <div class="loginframe">
 <img id="logintitle" src="http://lily0714.github.io/book-eat/登入框頭1.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="loginclose" weight="50" height="50">
