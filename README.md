@@ -24,7 +24,6 @@ $(document).ready(function() {
    /*開啟登入框loginframe*/
    $("#login_button1").click(function(){
        $(".hidebody").fadeIn("fast");
-        $(".hidebody").animate({opacity:'0.4'});
         $(".loginframe").fadeIn("fast");
    });
    $("#loginclose").click(function(){
@@ -88,7 +87,8 @@ weight:900px;
 height:100%;
 position:fixed;
 background-color:black;
-opacity:0.7;
+background-image:url("https://lily0714.github.io/book-eat/遮罩.png");
+opacity:0.5;
 z-index:2;
 left:0;
 top:0;
@@ -158,7 +158,7 @@ background-color:transparent;
    </div>
    <div class="hidebody"></div>
    <div class="menu">
-   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋</p>
+   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋1</p>
    </div>
    <div class="ad-login">
       <div class="k-ad">
