@@ -208,7 +208,7 @@ background-color:transparent;
      帳號:<input type="text" placeholder="請輸入帳號"><br><br>
      密碼:<input type="text" placeholder="請輸入密碼"><br>
      </form>
-     <input type="button" id="ylogin" value="      登     入    "/>
+     <input type="button" id="ylogin" value="    登     入   "/>
      </div>
    
 </body>
