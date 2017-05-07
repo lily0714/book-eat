@@ -87,8 +87,6 @@ height:100%;
 position:fixed;
 background-color:#000000;
 z-index:2;
-top:0;
-left:0;
 opacity:0.7;
 }
 .loginframe{
@@ -99,6 +97,7 @@ border-radius:2px;
 border-color:green;
 position:fixed;
 top:20%;
+left:30%;
 z-index:3;
 display:none;
 }
@@ -108,8 +107,10 @@ height:50px;
 background-image:url("https://lily0714.github.io/book-eat/登入框頭.png");
 }
 #loginclose{
+weight:50px;
+height:50px;
 cursor:pointer;
-z-index:4;
+background-image:url("https://lily0714.github.io/book-eat/登入框關閉.png");
 }
 .news-good{
 weight:900px;
@@ -150,7 +151,10 @@ background-color:#FF00FF;
       </div>
       <div class="hidebody"></div>
       <div class="loginframe">
-      <div class="logintitle">登入會員<img id="loginclose"src="https://lily0714.github.io/book-eat/登入框關閉.png"></div>
+          <div>
+          <div class="logintitle">登入會員</div>
+          <div id="loginclose"></div>
+          </div>
      <p></p>
      <form>
      帳號:<input type="text" placeholder="請輸入帳號"><br>
@@ -158,8 +162,8 @@ background-color:#FF00FF;
      </form>
      <input type="button" value="登 入"/>
      </div>
-      <div class="login">
-      <p>登入</p>
+     <div class="login">
+      <p>登入1</p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
 <br>
