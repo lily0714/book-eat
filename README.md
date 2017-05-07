@@ -90,17 +90,6 @@ margin-bottom:10px;
 padding-right:60px;
 padding-bottom:-20px;
 }
-.hidebody{
-display:none;
-weight:900px;
-height:100%;
-position:absolute;
-background-color:black;
-opacity:0.4;
-z-index:2;
-left:0;
-top:0;
-}
 .loginframe{
 weight:448px;
 height:250px;
@@ -122,7 +111,6 @@ cursor:pointer;
 float:right;
 position:relative;
 right:50px;
-bottom:20px;
 color:green;
 background:white;
 weight:100px;
@@ -193,7 +181,7 @@ background-color:transparent;
    <p></p>
    <div class="news-good">
       <div class="news">
-      <p>最新動態1</p>
+      <p>最新動態</p>
       </div>
       <div class="good">
       <p>傑出動態</p>
