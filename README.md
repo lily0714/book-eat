@@ -23,6 +23,7 @@ $(document).ready(function() {
    });
    /*開啟登入框loginframe*/
    $("#login_button1").click(function(){
+       $(".hidebody").fadeIn("fast");
         $(".hidebody").animate({opacity:'0.4'});
         $(".loginframe").fadeIn("fast");
    });
@@ -33,9 +34,6 @@ $(document).ready(function() {
 });
 </script>
 <style>
-html{
-height:100%;
-}
 body{
 background-color:#CEFFCE;
 weight:900px;
@@ -86,7 +84,7 @@ padding-bottom:-20px;
 }
 .hidebody{
 display:none;
-weight:100%;
+weight:900px;
 height:100%;
 position:fixed;
 background-color:black;
@@ -148,6 +146,7 @@ background-color:#FF00FF;
 position: fixed;
 bottom: 0;
 right: 0;
+rgba(255, 255, 255, 0.75);
 }
 </style>
 <body>
@@ -156,7 +155,7 @@ right: 0;
    </div>
    <div class="hidebody"></div>
    <div class="menu">
-   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋</p>
+   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋1</p>
    </div>
    <div class="ad-login">
       <div class="k-ad">
