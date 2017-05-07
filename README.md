@@ -85,12 +85,12 @@ display:none;
 weight:100%;
 height:100%;
 position:fixed;
-background-color:#000000;
+background-color:black;
 z-index:2;
 opacity:0.7;
 }
 .loginframe{
-weight:450px;
+weight:448px;
 height:250px;
 background-color:#FFFFFF;
 border-radius:1px;
@@ -146,7 +146,7 @@ background-color:#FF00FF;
    <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
    </div>
    <div class="menu">
-   <p>資訊連結列:認識我們 預約座位4 交通資訊3 常見問題2 意見回饋1</p>
+   <p>資訊連結列:認識我們 預約座位 交通資訊3 常見問題2 意見回饋1</p>
    </div>
    <div class="ad-login">
       <div class="k-ad">
