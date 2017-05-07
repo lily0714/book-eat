@@ -188,7 +188,7 @@ background-color:transparent;
       <p>最新動態</p>
       </div>
       <div class="good">
-      <p>傑出動態</p>
+      <p>傑出動態1</p>
       </div>
    </div>
    <p></p>
@@ -204,7 +204,7 @@ background-color:transparent;
    <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
    /*彈出視窗在這*/
     <div class="loginframe">
-<img id="logintitle" src="http://lily0714.github.io/book-eat/登入框頭1.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="loginclose" weight="50" height="50">
+<img id="logintitle" src="http://lily0714.github.io/book-eat/登入框頭.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="loginclose" weight="50" height="50">
 <br>
      <form>
      <br>
