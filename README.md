@@ -32,12 +32,12 @@ $(document).ready(function() {
    });
    /*確定登入*/
    $("#ylogin").mouseenter(function(){
-        $("#ylogin").css("color", "white");
-        $("#ylogin").css("background", "green");
+        $("#ylogin").css("color", "green");
+        $("#ylogin").css("background", "white");
    });
    $("#ylogin").mouseout(function(){
-        $("#ylogin").css("color", "green");
-        $("#ylogin").css("background", "white");
+        $("#ylogin").css("color", "white");
+        $("#ylogin").css("background", "green");
    });
 });
 </script>
@@ -112,13 +112,14 @@ float:right;
 position:relative;
 right:50px;
 bottom:-10px;
-color:green;
-background:white;
+color:white;
+background:green;
 weight:110px;
 height:110px;
 font-family:Microsoft JhengHei;
 font-size:20px;
 border-radius:2px;
+cursor:pointer;
 }
 form{
 float:left;
