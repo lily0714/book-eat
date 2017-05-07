@@ -1,47 +1,50 @@
 <script type='text/javascript' src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
-  <script type='text/javascript'>
-    $(document).ready(function() {
-     $("#login_button1").css("color", "green");
-     $("#login_button1").css("background", "white");
-     $("#login_button1").mouseenter(function(){
+<script type='text/javascript'>
+$(document).ready(function() {
+    $("#login_button1").css("color", "green");
+    $("#login_button1").css("background", "white");
+    $("#login_button1").mouseenter(function(){
         $("#login_button1").css("color", "white");
         $("#login_button1").css("background", "green");
-      });
-$("#login_button1").mouseout(function(){
+    });
+    $("#login_button1").mouseout(function(){
         $("#login_button1").css("color", "green");
         $("#login_button1").css("background", "white");
-      });
-      $("#login_button2").css("color", "green");
-     $("#login_button2").css("background", "white");
-     $("#login_button2").mouseenter(function(){
+    });
+   $("#login_button2").css("color", "green");
+   $("#login_button2").css("background", "white");
+   $("#login_button2").mouseenter(function(){
         $("#login_button2").css("color", "white");
         $("#login_button2").css("background", "green");
-      });
-$("#login_button2").mouseout(function(){
+   });
+   $("#login_button2").mouseout(function(){
         $("#login_button2").css("color", "green");
         $("#login_button2").css("background", "white");
-      });
-      
-      $("#login_botton1").css({cursor:"pointer"}).click(function(){
-          $(".loginframe").fadeIn("fast");
-       });
-       $("#loginclose").css({cursor:"pointer"}).click(function(){
-          $(".loginframe").fadeOut("fast");
-       });
-      });
-     </script>
+   });
+   /*開啟登入框loginframe*/
+   $("#login_button1").click(function(){
+        $(".hidebody").css("display","block");
+        $(".loginframe").fadeIn("fast");
+   });
+   $("#loginclose").click(function(){
+        $(".loginframe").fadeOut("fast");
+        $(".hidebody").css("display","none");
+   });
+});
+</script>
 <style>
-
 body{
 background-color:#CEFFCE;
 weight:900px;
 }
 .login_button{
-border-radius: 10px;
+border-radius:2px;
+border-color:green;
 width:150px;
 height:50px;
 font-size:20px;
 font-family:Microsoft JhengHei;
+cursor:pointer;
 }
 .logo{
 weight:160px;
@@ -59,7 +62,7 @@ height:250px;
 }
 .k-ad{
 float:left;
-weight:300px;  /*700*/
+weight:700px;  
 height:250px;
 /*background-color:#424200;*/
 }
@@ -76,11 +79,36 @@ margin-bottom:10px;
 padding-right:60px;
 padding-bottom:-20px;
 }
+.hidebody{
+display:none;
+weight:100%;
+height:100%;
+position:fixed;
+background-color:#000000;
+z-index:2;
+top:0;
+left:0;
+opacity:0.7;
+}
 .loginframe{
-weight:300px;
+weight:400px;
 height:250px;
 background-color:#FFFFFF;
-
+border-radius:2px;
+border-color:green;
+position:fixed;
+top:30%;
+left:50%;
+z-index:3;
+display:none;
+}
+.logintitle{
+weight:350px;
+height:50px;
+background-image:url("https://lily0714.github.io/book-eat/登入框頭.png");
+}
+#loginclose{
+cursor:pointer;
 }
 ul{
 list-style-type:none;
@@ -122,26 +150,21 @@ background-color:#FF00FF;
       <div class="k-ad">
       <p>k中廣告</p>
       </div>
+      <div class="hidebody"></div>
       <div class="loginframe">
-     登入會員               <input id="loginclose" type="button" value="關閉"/>
+      <div class="logintitle">登入會員</div><img id="loginclose"src="https://lily0714.github.io/book-eat/登入框關閉.png">
      <p></p>
      <form>
-     帳號:<input type="text" placeholder="請輸入帳號">
-     密碼:<input type="text" placeholder="請輸入密碼">
+     帳號:<input type="text" placeholder="請輸入帳號"><br>
+     密碼:<input type="text" placeholder="請輸入密碼"><br>
      </form>
      <input type="button" value="登 入"/>
      </div>
       <div class="login">
       <p>登入</p>
 <b>
-<ul>
-<li>
-<input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
-</li>
-<li>
-<input type="button" id="login_button2" class = "login_button" value=" 註 冊 " onclick="window.location='https://www.instagram.com/14_shan/';" />
-</li>
-</ul>
+<input type="button" id="login_button1" class = "login_button" value=" 登 入 " /><br>
+<input type="button" id="login_button2" class = "login_button" value=" 註 冊 "/> onclick="window.location='https://www.instagram.com/14_shan/';" />
 </b>
      
       </div>
