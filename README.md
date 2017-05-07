@@ -23,12 +23,12 @@ $(document).ready(function() {
    });
    /*開啟登入框loginframe*/
    $("#login_button1").click(function(){
-        $(".hidebody").css("display":"block");
+        $(".hidebody").css({"display":"block"});
         $(".loginframe").fadeIn("fast");
    });
    $("#loginclose").click(function(){
         $(".loginframe").fadeOut("fast");
-        $(".hidebody").css("display":"none");
+        $(".hidebody").css({"display":"none"});
    });
 });
 </script>
@@ -39,7 +39,6 @@ weight:900px;
 }
 .login_button{
 border-radius:2px;
-border-color:green;
 width:150px;
 height:50px;
 font-size:20px;
@@ -71,7 +70,7 @@ float:right;
 weight:200px;
 height:250px;
 /*background-color:#0080FF;*/
-border: 5px ridge black; 
+border: 5px ridge green; 
 margin-top:10px; 
 margin-left:20px; 
 margin-right:20px; 
@@ -109,9 +108,6 @@ background-image:url("https://lily0714.github.io/book-eat/登入框頭.png");
 }
 #loginclose{
 cursor:pointer;
-}
-ul{
-list-style-type:none;
 }
 .news-good{
 weight:900px;
