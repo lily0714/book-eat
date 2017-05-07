@@ -104,6 +104,11 @@ z-index:3;
 display:none;
 opacity:1;
 }
+#logintitle{
+float:left;
+position:relative;
+left:1px;
+}
 #loginclose{
 cursor:pointer;
 float:right;
@@ -187,7 +192,7 @@ background-color:transparent;
    <p></p>
    <div class="news-good">
       <div class="news">
-      <p>最新動態</p>
+      <p>最新動態1</p>
       </div>
       <div class="good">
       <p>傑出動態</p>
