@@ -23,12 +23,12 @@ $(document).ready(function() {
    });
    /*開啟登入框loginframe*/
    $("#login_button1").click(function(){
-        $(".hidebody").css({"display":"block"});
+        $(".hidebody").css({"display","block"});
         $(".loginframe").fadeIn("fast");
    });
    $("#loginclose").click(function(){
         $(".loginframe").fadeOut("fast");
-        $(".hidebody").css({"display":"none"});
+        $(".hidebody").css("display","none");
    });
 });
 </script>
@@ -85,10 +85,10 @@ display:none;
 weight:100%;
 height:100%;
 position:fixed;
-background-color:#000;
+background-color:black;
 z-index:2;
-opacity:0.7;
-filter: alpha(opacity=30);
+opacity:0.5;
+filter: alpha(opacity=50);
 }
 .loginframe{
 weight:448px;
