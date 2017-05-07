@@ -118,13 +118,11 @@ height:50px;
 cursor:pointer;
 background-image:url("https://lily0714.github.io/book-eat/登入框關閉.png");
 background-repeat: no-repeat; 
+}
+/*#ylogin{
 position:relative;
 right:0px;
-}
-#ylogin{
-position:relative;
-right:0px;
-}
+}*/
 .news-good{
 weight:900px;
 height:450px;
@@ -165,9 +163,8 @@ background-color:#FF00FF;
       <div class="hidebody"></div>
       <div class="loginframe">
           <div class="login-t-c">
-            <div class="logintitle">
-                <div id="loginclose"></div>
-            </div>
+            <img src="http://lily0714.github.io/book-eat/登入框頭.png" weight="400" height="50">
+            <img id="loginclose"src="http://lily0714.github.io/book-eat/登入框關閉.png" weight="400" height="50">
           </div>
      <p></p>
      <form>
@@ -190,7 +187,7 @@ background-color:#FF00FF;
    <p></p>
    <div class="news-good">
       <div class="news">
-      <p>最新動態1</p>
+      <p>最新動態</p>
       </div>
       <div class="good">
       <p>傑出動態</p>
