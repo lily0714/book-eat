@@ -23,12 +23,12 @@ $(document).ready(function() {
    });
    /*開啟登入框loginframe*/
    $("#login_button1").click(function(){
-        $("html").animate({opacity:'0.5'});
+        $("body").animate({opacity:'0.4'});
         $(".loginframe").fadeIn("fast");
    });
    $("#loginclose").click(function(){
         $(".loginframe").fadeOut("fast");
-        $("html").animate({opacity:'1'});
+        $("body").animate({opacity:'1'});
    });
 });
 </script>
@@ -148,7 +148,7 @@ background-color:#FF00FF;
    </div>
    <div class="hidebody"></div>
    <div class="menu">
-   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋</p>
+   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋1</p>
    </div>
    <div class="ad-login">
       <div class="k-ad">
