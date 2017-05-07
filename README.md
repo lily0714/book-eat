@@ -111,7 +111,7 @@ cursor:pointer;
 float:right;
 position:relative;
 right:50px;
-bottom:70px;
+bottom:-10px;
 color:green;
 background:white;
 weight:110px;
@@ -183,7 +183,7 @@ background-color:transparent;
    <p></p>
    <div class="news-good">
       <div class="news">
-      <p>最新動態</p>
+      <p>最新動態1</p>
       </div>
       <div class="good">
       <p>傑出動態</p>
@@ -208,7 +208,7 @@ background-color:transparent;
      帳號:<input type="text" placeholder="請輸入帳號"><br><br>
      密碼:<input type="text" placeholder="請輸入密碼"><br>
      </form>
-     <input type="button" id="ylogin" value="   登   入  login"/>
+     <input type="button" id="ylogin" value="   登   入  "value="Login"/>
      </div>
    
 </body>
