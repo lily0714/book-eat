@@ -90,7 +90,7 @@ z-index:2;
 opacity:0.7;
 }
 .loginframe{
-weight:450px;
+weight:400px;
 height:250px;
 background-color:#FFFFFF;
 border-radius:1px;
@@ -112,7 +112,7 @@ float:right;
 #ylogin{
 float:right;
 position:relative;
-right:20px;
+right:50px;
 }
 .news-good{
 weight:900px;
@@ -157,6 +157,7 @@ background-color:#FF00FF;
             <img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="loginclose" weight="50" height="50">
      <p></p>
      <form>
+     <br>
      帳號:<input type="text" placeholder="請輸入帳號"><br><br>
      密碼:<input type="text" placeholder="請輸入密碼"><br>
      </form>
