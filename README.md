@@ -144,6 +144,11 @@ weight:900px;
 height:100px;
 background-color:#FF00FF;
 }
+#discount{
+position: fixed;
+bottom: 0;
+right: 0;
+}
 </style>
 <body>
    <div class="logo">
@@ -194,7 +199,7 @@ background-color:#FF00FF;
    <div class="link">
    <p>重要連結</p>
    </div>
-
+   <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
    
    
 </body>
