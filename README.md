@@ -145,6 +145,7 @@ height:100px;
 background-color:#FF00FF;
 }
 #discount{
+cursor:pointer;
 position: fixed;
 bottom: 0;
 right: 0;
