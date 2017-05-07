@@ -104,12 +104,9 @@ z-index:3;
 display:none;
 opacity:1;
 }
-#logintitle{
-background-color:transparent;
-}
 #loginclose{
 cursor:pointer;
-background-color:transparent;
+float:right;
 }
 #ylogin{
 float:right;
@@ -191,7 +188,7 @@ background-color:transparent;
       <p>最新動態</p>
       </div>
       <div class="good">
-      <p>傑出動態1</p>
+      <p>傑出動態</p>
       </div>
    </div>
    <p></p>
