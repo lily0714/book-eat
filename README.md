@@ -118,6 +118,12 @@ height:50px;
 cursor:pointer;
 background-image:url("https://lily0714.github.io/book-eat/登入框關閉.png");
 background-repeat: no-repeat; 
+position:relative;
+right:0px;
+}
+#ylogin{
+position:relative;
+right:0px;
 }
 .news-good{
 weight:900px;
@@ -154,7 +160,7 @@ background-color:#FF00FF;
    </div>
    <div class="ad-login">
       <div class="k-ad">
-      <p>k中廣告</p>
+      <p>k中廣告1</p>
       </div>
       <div class="hidebody"></div>
       <div class="loginframe">
@@ -168,7 +174,7 @@ background-color:#FF00FF;
      帳號:<input type="text" placeholder="請輸入帳號"><br><br>
      密碼:<input type="text" placeholder="請輸入密碼"><br>
      </form>
-     <input type="button" value="登 入"/>
+     <input id="ylogin"type="button" value="登 入"/>
      </div>
      <div class="login">
         <p>登入</p>
