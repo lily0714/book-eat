@@ -90,7 +90,7 @@ z-index:2;
 opacity:0.7;
 }
 .loginframe{
-weight:400px;
+weight:450px;
 height:250px;
 background-color:#FFFFFF;
 border-radius:1px;
@@ -102,17 +102,12 @@ left:30%;
 z-index:3;
 display:none;
 }
-
 #logintitle{
-position:relative;
-top:0px;
-left:0px;
+float:left;
 }
 #loginclose{
 cursor:pointer;
-position:relative;
-top:0px;
-right:0px;
+float:right;
 }
 #ylogin{
 float:right;
@@ -168,7 +163,7 @@ background-color:#FF00FF;
      <input type="button" id="ylogin" value="登 入"/>
      </div>
      <div class="login">
-        <p>登入1</p>
+        <p>登入</p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
 <br>
