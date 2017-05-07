@@ -44,6 +44,8 @@ height:50px;
 font-size:20px;
 font-family:Microsoft JhengHei;
 cursor:pointer;
+position:relative;
+left:30px;
 }
 .logo{
 weight:160px;
