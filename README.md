@@ -103,11 +103,11 @@ z-index:3;
 display:none;
 }
 #logintitle{
-float:left;
+
 }
 #loginclose{
 cursor:pointer;
-float:right;
+
 }
 /*#ylogin{
 float:right;
@@ -163,7 +163,7 @@ background-color:#FF00FF;
      <input type="button" id="ylogin" value="登 入"/>
      </div>
      <div class="login">
-        <p>登入1</p>
+        <p>登入</p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
 <br>
