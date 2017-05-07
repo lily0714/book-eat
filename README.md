@@ -30,6 +30,15 @@ $(document).ready(function() {
         $(".loginframe").fadeOut("fast");
         $(".main").animate({opacity:'1'});
    });
+   /*確定登入*/
+   $("#ylogin").mouseenter(function(){
+        $("#ylogin").css("color", "white");
+        $("#ylogin").css("background", "green");
+   });
+   $("#ylogin").mouseout(function(){
+        $("#ylogin").css("color", "green");
+        $("#ylogin").css("background", "white");
+   });
 });
 </script>
 <style>
@@ -114,6 +123,13 @@ float:right;
 position:relative;
 right:50px;
 bottom:20px;
+color:green;
+background:white;
+weight:100px;
+height:100px;
+font-family:Microsoft JhengHei;
+font-size:20px;
+border-radius:2px;
 }
 form{
 position:relative;
@@ -157,9 +173,8 @@ background-color:transparent;
    <div class="logo">
    <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
    </div>
-   
    <div class="menu">
-   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回1饋</p>
+   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋</p>
    </div>
    <div class="ad-login">
       <div class="k-ad">
@@ -178,7 +193,7 @@ background-color:transparent;
    <p></p>
    <div class="news-good">
       <div class="news">
-      <p>最新動態</p>
+      <p>最新動態1</p>
       </div>
       <div class="good">
       <p>傑出動態</p>
