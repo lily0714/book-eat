@@ -106,23 +106,13 @@ display:none;
 weight:450px;
 height:50px;
 }
-.logintitle{
-weight:400px;
-height:50px;
-background-image:url("https://lily0714.github.io/book-eat/登入框頭.png");
-background-repeat: no-repeat; 
-}
 #loginclose{
-weight:50px;
-height:50px;
 cursor:pointer;
-background-image:url("https://lily0714.github.io/book-eat/登入框關閉.png");
-background-repeat: no-repeat; 
 }
-/*#ylogin{
+#ylogin{
 position:relative;
 right:0px;
-}*/
+}
 .news-good{
 weight:900px;
 height:450px;
@@ -164,7 +154,7 @@ background-color:#FF00FF;
       <div class="loginframe">
           <div class="login-t-c">
             <img src="http://lily0714.github.io/book-eat/登入框頭.png" weight="400" height="50">
-            <img id="loginclose"src="http://lily0714.github.io/book-eat/登入框關閉.png" weight="400" height="50">
+            <img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="loginclose" weight="50" height="50">
           </div>
      <p></p>
      <form>
@@ -174,7 +164,7 @@ background-color:#FF00FF;
      <input type="button" id="ylogin" value="登 入"/>
      </div>
      <div class="login">
-        <p>登入</p>
+        <p>登1入</p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
 <br>
