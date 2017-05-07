@@ -154,7 +154,7 @@ background-color:#FF00FF;
       <div class="hidebody"></div>
       <div class="loginframe">
             <img id="logintitle" src="http://lily0714.github.io/book-eat/登入框頭1.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="loginclose" weight="50" height="50">
-     <p></p>
+     <br><br>
      <form>
      <br>
      帳號:<input type="text" placeholder="請輸入帳號"><br><br>
@@ -163,7 +163,7 @@ background-color:#FF00FF;
      <input type="button" id="ylogin" value="登 入"/>
      </div>
      <div class="login">
-        <p>登入</p>
+        <p>登入1</p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
 <br>
