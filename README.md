@@ -102,10 +102,7 @@ left:30%;
 z-index:3;
 display:none;
 }
-.login-t-c{
-weight:450px;
-height:50px;
-}
+
 #logintitle{
 position:relative;
 top:0px;
@@ -118,9 +115,7 @@ top:0px;
 right:0px;
 }
 #ylogin{
-position:relative;
-top:120px;
-left:70px;
+float:right;
 }
 .news-good{
 weight:900px;
@@ -161,10 +156,8 @@ background-color:#FF00FF;
       </div>
       <div class="hidebody"></div>
       <div class="loginframe">
-          <div class="login-t-c">
             <img src="http://lily0714.github.io/book-eat/登入框頭.png" id="logintitle" weight="400" height="50">
             <img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="loginclose" weight="50" height="50">
-          </div>
      <p></p>
      <form>
      帳號:<input type="text" placeholder="請輸入帳號"><br><br>
@@ -173,7 +166,7 @@ background-color:#FF00FF;
      <input type="button" id="ylogin" value="登 入"/>
      </div>
      <div class="login">
-        <p>登入</p>
+        <p>登入1</p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
 <br>
