@@ -90,7 +90,7 @@ z-index:2;
 opacity:0.7;
 }
 .loginframe{
-weight:400px;
+weight:450px;
 height:250px;
 background-color:#FFFFFF;
 border-radius:1px;
@@ -101,6 +101,7 @@ top:20%;
 left:30%;
 z-index:3;
 display:none;
+padding-right:-50px;
 }
 #logintitle{
 float:left;
@@ -177,7 +178,7 @@ background-color:#FF00FF;
    <p></p>
    <div class="news-good">
       <div class="news">
-      <p>最新動態</p>
+      <p>最新動態1</p>
       </div>
       <div class="good">
       <p>傑出動態</p>
