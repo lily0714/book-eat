@@ -97,7 +97,6 @@ border-radius:2px;
 border-color:green;
 position:fixed;
 top:20%;
-left:-50%;
 z-index:3;
 display:none;
 }
