@@ -163,7 +163,7 @@ background-color:#FF00FF;
      <input type="button" id="ylogin" value="登 入"/>
      </div>
      <div class="login">
-        <p>1登入</p>
+        <p>登入</p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
 <br>
