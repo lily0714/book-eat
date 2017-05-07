@@ -86,9 +86,9 @@ display:none;
 weight:900px;
 height:100%;
 position:fixed;
-background-color:black;
 background-image:url("https://lily0714.github.io/book-eat/遮罩.png");
-opacity:0.5;
+background-repeat: repeat; 
+opacity:0.4;
 z-index:2;
 left:0;
 top:0;
@@ -158,7 +158,7 @@ background-color:transparent;
    </div>
    <div class="hidebody">我在這</div>
    <div class="menu">
-   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題1 意見回饋</p>
+   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋</p>
    </div>
    <div class="ad-login">
       <div class="k-ad">
