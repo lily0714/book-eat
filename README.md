@@ -101,7 +101,6 @@ top:20%;
 left:30%;
 z-index:3;
 display:none;
-padding-right:-50px;
 }
 #logintitle{
 float:left;
@@ -109,6 +108,7 @@ float:left;
 #loginclose{
 cursor:pointer;
 float:right;
+padding-right:-50px;
 }
 #ylogin{
 float:right;
@@ -154,7 +154,7 @@ background-color:#FF00FF;
       </div>
       <div class="hidebody"></div>
       <div class="loginframe">
-            <img src="http://lily0714.github.io/book-eat/登入框頭.png" id="logintitle" weight="400" height="50">
+            <img src="http://lily0714.github.io/book-eat/登入框頭1.png" id="logintitle" weight="400" height="50">
             <img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="loginclose" weight="50" height="50">
      <p></p>
      <form>
@@ -178,7 +178,7 @@ background-color:#FF00FF;
    <p></p>
    <div class="news-good">
       <div class="news">
-      <p>最新動態1</p>
+      <p>最新動態</p>
       </div>
       <div class="good">
       <p>傑出動態</p>
