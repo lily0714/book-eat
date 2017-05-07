@@ -94,6 +94,7 @@ weight:400px;
 height:250px;
 background-color:#FFFFFF;
 border-radius:2px;
+border-style:solid;
 border-color:green;
 position:fixed;
 top:20%;
@@ -158,7 +159,7 @@ background-color:#FF00FF;
       <div class="hidebody"></div>
       <div class="loginframe">
           <div class="login-t-c">
-          <div class="logintitle">登入會員
+          <div class="logintitle">
               <div id="loginclose"></div>
           </div>
           </div>
@@ -170,7 +171,7 @@ background-color:#FF00FF;
      <input type="button" value="登 入"/>
      </div>
      <div class="login">
-        <p>登入1</p>
+        <p>登入</p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
 <br>
