@@ -152,8 +152,9 @@ background-color:#FF00FF;
       <div class="hidebody"></div>
       <div class="loginframe">
           <div>
-          <div class="logintitle">登入會員</div>
-          <div id="loginclose"></div>
+          <div class="logintitle">登入會員
+              <div id="loginclose"></div>
+          </div>
           </div>
      <p></p>
      <form>
@@ -163,7 +164,7 @@ background-color:#FF00FF;
      <input type="button" value="登 入"/>
      </div>
      <div class="login">
-      <p>登入1</p>
+        <p>登入</p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
 <br>
