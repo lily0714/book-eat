@@ -106,14 +106,12 @@ weight:400px;
 height:50px;
 }
 .logintitle{
-float:left;
 weight:350px;
 height:50px;
 background-image:url("https://lily0714.github.io/book-eat/登入框頭.png");
 background-repeat: no-repeat; 
 }
 #loginclose{
-float:right;
 weight:50px;
 height:50px;
 cursor:pointer;
@@ -172,7 +170,7 @@ background-color:#FF00FF;
      <input type="button" value="登 入"/>
      </div>
      <div class="login">
-        <p>登入</p>
+        <p>登入1</p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
 <br>
