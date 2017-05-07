@@ -160,7 +160,9 @@ background-color:#FF00FF;
       <div class="login">
       <p>登入</p>
 <b>
-<input type="button" id="login_button1" class = "login_button" value=" 登 入 " /><br>
+<input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
+<br>
+<br>
 <input type="button" id="login_button2" class = "login_button" value=" 註 冊 "/>
 </b>
      
