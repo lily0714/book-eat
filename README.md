@@ -82,7 +82,7 @@ padding-bottom:-20px;
 display:none;
 weight:100%;
 height:100%;
-position:fixed;
+position:absolute;
 background-color:#000000;
 z-index:2;
 top:0;
@@ -96,8 +96,8 @@ background-color:#FFFFFF;
 border-radius:2px;
 border-color:green;
 position:fixed;
-top:30%;
-left:50%;
+top:20%;
+left:-50%;
 z-index:3;
 display:none;
 }
@@ -108,6 +108,7 @@ background-image:url("https://lily0714.github.io/book-eat/登入框頭.png");
 }
 #loginclose{
 cursor:pointer;
+z-index:4;
 }
 .news-good{
 weight:900px;
@@ -148,7 +149,7 @@ background-color:#FF00FF;
       </div>
       <div class="hidebody"></div>
       <div class="loginframe">
-      <div class="logintitle">登入會員</div><img id="loginclose"src="https://lily0714.github.io/book-eat/登入框關閉.png">
+      <div class="logintitle">登入會員<img id="loginclose"src="https://lily0714.github.io/book-eat/登入框關閉.png"></div>
      <p></p>
      <form>
      帳號:<input type="text" placeholder="請輸入帳號"><br>
