@@ -90,7 +90,7 @@ z-index:2;
 opacity:0.7;
 }
 .loginframe{
-weight:400px;
+weight:450px;
 height:250px;
 background-color:#FFFFFF;
 border-radius:2px;
@@ -110,8 +110,7 @@ height:50px;
 cursor:pointer;
 }
 #ylogin{
-position:relative;
-right:0px;
+align:center;
 }
 .news-good{
 weight:900px;
@@ -158,13 +157,13 @@ background-color:#FF00FF;
           </div>
      <p></p>
      <form>
-     帳號:<input type="text" placeholder="請輸入帳號"><br><br>
-     密碼:<input type="text" placeholder="請輸入密碼"><br>
+     ● 帳號:<input type="text" placeholder="請輸入帳號"><br><br>
+     ● 密碼:<input type="text" placeholder="請輸入密碼"><br>
      </form>
      <input type="button" id="ylogin" value="登 入"/>
      </div>
      <div class="login">
-        <p>登1入</p>
+        <p>登入</p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
 <br>
