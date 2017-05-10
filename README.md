@@ -81,8 +81,8 @@ height:250px;
 float:right;
 weight:200px;
 height:250px;
-background-image:url("https://lily0714.github.io/book-eat/登入面板.png");
-background-repeat:no repeat;
+background-image:url("https://lily0714.github.io/book-eat/登入面板1.png");
+background-repeat:no-repeat;
 /*border: 1px ridge green; */
 margin-top:10px; 
 margin-left:20px; 
