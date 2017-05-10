@@ -90,6 +90,7 @@ margin-right:20px;
 margin-bottom:10px; 
 padding-right:60px;
 padding-bottom:-20px;
+padding-top:60px;
 }
 .loginframe{
 weight:450px;
@@ -193,7 +194,7 @@ background-color:transparent;
    <p></p>
    <div class="news-good">
       <div class="news">
-      <p>最新動態</p>
+      <p>最新動態1</p>
       </div>
       <div class="good">
       <p>傑出動態</p>
