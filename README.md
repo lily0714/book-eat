@@ -181,7 +181,8 @@ background-color:transparent;
       <p>k中廣告</p>
       </div>
      <div class="login">
-        <p>登入</p>
+
+
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
 <br>
