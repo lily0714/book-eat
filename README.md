@@ -81,8 +81,9 @@ height:250px;
 float:right;
 weight:200px;
 height:250px;
-/*background-image:url("https://lily0714.github.io/book-eat/登入面板1.png");*/
+background-image:url("https://lily0714.github.io/book-eat/登入面板1.png");
 background-repeat:no-repeat;
+background-size：contain contain;
 /*border: 1px ridge green; */
 margin-top:10px; 
 margin-left:20px; 
@@ -181,7 +182,7 @@ background-color:transparent;
       <div class="k-ad">
       <p>k中廣告</p>
       </div>
-     <div class="login" background="https://lily0714.github.io/book-eat/登入面板1.png" width="220" height="250">
+     <div class="login">
      <p></p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
