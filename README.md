@@ -83,7 +83,7 @@ weight:200px;
 height:250px;
 background-image:url("https://lily0714.github.io/book-eat/登入面板.png");
 background-repeat:no repeat;
-border: 5px ridge green; 
+/*border: 1px ridge green; */
 margin-top:10px; 
 margin-left:20px; 
 margin-right:20px; 
