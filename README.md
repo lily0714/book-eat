@@ -67,6 +67,11 @@ weight:900px;
 height:50px;
 background-color:#AAAAFF;
 }
+.bigback{
+background-image:url("https://lily0714.github.io/book-eat/全底圖.png");
+background-repeat:no-repeat;
+background-size：contain contain;
+}
 .ad-login{
 weight:900px;
 height:250px;
@@ -178,6 +183,7 @@ background-color:transparent;
    <div class="menu">
    <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋</p>
    </div>
+ <div class="bigback">
    <div class="ad-login">
       <div class="k-ad">
       <p>k中廣告</p>
@@ -208,8 +214,8 @@ background-color:transparent;
    <div class="link">
    <p>重要連結</p>
    </div>
-   
  </div>
+</div>
    <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
    <div class="loginframe">
 <img id="logintitle" src="http://lily0714.github.io/book-eat/登入框頭1.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="loginclose" weight="50" height="50">
