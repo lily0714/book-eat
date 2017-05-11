@@ -193,7 +193,7 @@ background-color:transparent;
  <div class="bigback">
    <div class="ad-login">
       <div class="k-ad">
-      <p>k中廣告         1</p>
+      <p>k中廣告123456789oiuyipo0iuyytoiiuyipu0yp98io87u75ri9i8p709po09yp9yloi;lou;polt</p>
       </div>
      <div class="login">
      <p></p>
