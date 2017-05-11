@@ -56,6 +56,7 @@ font-family:Microsoft JhengHei;
 cursor:pointer;
 position:relative;
 left:30px;
+z-index:1;
 }
 .logo{
 weight:160px;
@@ -101,10 +102,6 @@ margin-bottom:10px;
 padding-right:60px;
 padding-bottom:-20px;
 padding-top:60px;
-position:relative;
-z-index:1;
-}
-.login_button{
 position:relative;
 z-index:1;
 }
@@ -196,7 +193,7 @@ background-color:transparent;
  <div class="bigback">
    <div class="ad-login">
       <div class="k-ad">
-      <p>k中廣告</p>
+      <p>k中廣告1</p>
       </div>
      <div class="login">
      <p></p>
