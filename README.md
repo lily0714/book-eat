@@ -72,7 +72,6 @@ weight:920px;
 height:1200px;
 background-image:url("https://lily0714.github.io/book-eat/全底圖1.png");
 background-repeat:no-repeat;
-background-size：contain contain;
 background-color:transparent;
 position:relative;
 z-index:-1;
