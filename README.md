@@ -101,6 +101,8 @@ margin-bottom:10px;
 padding-right:60px;
 padding-bottom:-20px;
 padding-top:60px;
+position:relative;
+z-index:1;
 }
 .login_button{
 position:relative;
