@@ -71,6 +71,7 @@ background-color:#AAAAFF;
 background-image:url("https://lily0714.github.io/book-eat/全底圖.png");
 background-repeat:no-repeat;
 background-size：contain contain;
+opacity:0.6;
 }
 .ad-login{
 weight:900px;
