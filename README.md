@@ -69,7 +69,7 @@ height:50px;
 background-color:#AAAAFF;
 }
 .bigback{
-weight:920px;
+weight:1000px;
 height:1200px;
 background-image:url("https://lily0714.github.io/book-eat/全底圖1.png");
 background-repeat:no-repeat;
@@ -208,7 +208,7 @@ background-color:transparent;
    <p></p>
    <div class="news-good">
       <div class="news">
-      <p>最新動態</p>
+      <p>最新動態         1</p>
       </div>
       <div class="good">
       <p>傑出動態</p>
