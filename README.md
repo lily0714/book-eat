@@ -68,7 +68,7 @@ height:50px;
 background-color:#AAAAFF;
 }
 .bigback{
-weight:900px;
+weight:920px;
 height:1200px;
 background-image:url("https://lily0714.github.io/book-eat/全底圖2.png");
 background-repeat:no-repeat;
@@ -191,7 +191,7 @@ background-color:transparent;
  <div class="bigback">
    <div class="ad-login">
       <div class="k-ad">
-      <p>k中廣告</p>
+      <p>k中廣告1</p>
       </div>
      <div class="login">
      <p></p>
