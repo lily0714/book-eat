@@ -118,11 +118,15 @@ weight:160px;
 height:120px;
 
 }
-.menu{
+.menu{ 
 weight:900px;
+ 
 height:50px;
-background-color:#AAAAFF;
+ 
+background-color:#FFFFFF;
+ 
 }
+
 .bigback{
 weight:1000px;
 height:1200px;
@@ -242,9 +246,18 @@ background-color:transparent;
    <div class="logo">
    <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
    </div>
-   <div class="menu">
-   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋993</p>
-   </div>
+   <div class="menu"><strong>
+    <a href="https://sarah862024.github.io/bookandeat/" target="_self" style="text-decoration:none;color:black;">
+<nobr class="information" id="homepage">&emsp;&emsp;首  頁&nbsp;&emsp;</nobr></a>
+<a href="https://sarah862024.github.io/bookandeat/about-us" target="_self" style="text-decoration:none;color:black;"> 
+<nobr class="information" id="know us">&nbsp;&emsp;&emsp;認識我們&nbsp;&emsp;</nobr></a>    
+<a href="https://lily0714.github.io/bookandeat/預約座位" target="_self" style="text-decoration:none;color:black;"><nobr class="information" id="book seat">&nbsp;&emsp;&emsp;預約座位&nbsp;&emsp;</nobr></a>
+<a href="https://sarah862024.github.io/bookandeat/traffic" target="_self" style="text-decoration:none;color:black;">
+<nobr class="information" id="traffic">&nbsp;&emsp;&emsp;交通位置&nbsp;&emsp;</nobr></a>
+<nobr class="information" id="QA">&nbsp;&emsp;&emsp;常見問題&nbsp;&emsp;</nobr>    
+<nobr class="information" id="comment">&nbsp;&emsp;&emsp;意見回饋&nbsp;&emsp;</nobr><br> </strong>  
+</div>
+
  <div class="bigback">
    <div class="ad-login">
       <div class="k-ad">
