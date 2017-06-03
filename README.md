@@ -3,9 +3,21 @@ mysql_connect("localhost","root","webproject");//連結伺服器
 mysql_select_db("webproject");//選擇資料庫
 mysql_query("set names utf8");//以utf8讀取資料，讓資料可以讀取中文
 $data=mysql_query("select * from webproject");//從contact資料庫中選擇所有的資料表
-?>
-<?php
-require_once("connMysql.php");
+	//資料庫主機設定
+	$db_host = "localhost";
+	$db_username = "root";
+	$db_password = "webproject";
+	$db_name = "login";
+	//連線資料庫
+	$db_link = new mysqli($db_host, $db_username, $db_password, $db_name);
+	//錯誤處理
+	if ($db_link->connect_error != "") {
+		echo "資料庫連結失敗！";
+	}else{
+		//設定字元集與編碼
+		$db_link->query("SET NAMES 'utf8'");
+	}
+	
 session_start();
 //檢查是否經過登入，若有登入則重新導向
 if(isset($_SESSION["loginMember"]) && ($_SESSION["loginMember"]!="")){
@@ -20,7 +32,7 @@ if(isset($_SESSION["loginMember"]) && ($_SESSION["loginMember"]!="")){
 //執行會員登入
 if(isset($_POST["username"]) && isset($_POST["passwd"])){
 	//繫結登入會員資料
-	$stmt=$db_link->prepare("SELECT id, password FROM login WHERE id=?");
+	$stmt=$db_link->prepare("SELECT  id, password FROM login WHERE id=?");
 	$stmt->bind_param("s", $_POST["username"]);
 	$stmt->execute();
 	//取出帳號密碼的值綁定結果
