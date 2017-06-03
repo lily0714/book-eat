@@ -272,8 +272,8 @@ background-color:transparent;
 <br>
      <form>
      <br>
-     帳號:<input type="text" placeholder="請輸入帳號"><br><br>
-     密碼:<input type="text" placeholder="請輸入密碼"><br>
+     帳號:<input type="text" name="username" placeholder="請輸入帳號"><br><br>
+     密碼:<input type="text" name="passwd" placeholder="請輸入密碼"><br>
      </form>
      <input type="button" id="ylogin" value="    登     入   "/>
      </div>
