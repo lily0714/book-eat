@@ -120,7 +120,6 @@ background-color:	green;
 border: 2px solid blue;
 }
 #s4{
-text-align:center;
 background-color:	red;
 border: 2px solid yellow;
 }
@@ -174,6 +173,7 @@ border: 2px solid orange;
         <div class="col-xs-7" id="s2">A2</div>
         <div class="col-xs-7" id="s3">A3</div>
         <div class="col-xs-7" id="s4">A4</div>
+        </div>
      <div class="row">
       <div class="col-xs-7"id="s5">A5</div>
       <div class="col-xs-7" id="s6">A6</div>
