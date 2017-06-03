@@ -9,7 +9,7 @@ $data=mysql_query("select * from webproject");//從contact資料庫中選擇所�
 	$db_password = "webproject";
 	$db_name = "webproject";
 	//連線資料庫
-	$db_link = new mysqli($db_host, $db_username, $db_password, $db_name);
+	$db_link = @new mysqli($db_host, $db_username, $db_password, $db_name);
 	//錯誤處理
 	if ($db_link->connect_error != "") {
 		echo "資料庫連結失敗！";
@@ -243,7 +243,7 @@ background-color:transparent;
    <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
    </div>
    <div class="menu">
-   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋123</p>
+   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋993</p>
    </div>
  <div class="bigback">
    <div class="ad-login">
