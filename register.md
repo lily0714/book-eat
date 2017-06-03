@@ -114,14 +114,17 @@ border: 2px solid blue;
 #s2{
 background-color:	#FFA488;
 border: 2px solid orange;
+display:inline;
 }
 #s3{
 background-color:	green;
 border: 2px solid blue;
+display:inline;
 }
 #s4{
 background-color:	red;
 border: 2px solid yellow;
+display:inline;
 }
 #s5{
 background-color:	yellow;
@@ -163,23 +166,23 @@ border: 2px solid orange;
 <nobr class="information" id="comment">&nbsp;&emsp;&emsp;意見回饋&nbsp;&emsp;</nobr><br> </strong>  
 </div>
 <div class = "bigback">
-<div class="announcement">
-<br/>
-<p id="regtitle">預約座位</p><br/><br/><br/><br/>
-  <div class="single">
-     <div class="singleseat ">
-        <div class="row">
-        <div class="col-xs-7" id="s1">A1</div>    
-        <div class="col-xs-7" id="s2">A2</div>
-        <div class="col-xs-7" id="s3">A3</div>
-        <div class="col-xs-7" id="s4">A4</div>
-        </div>
-     <div class="row">
-      <div class="col-xs-7"id="s5">A5</div>
-      <div class="col-xs-7" id="s6">A6</div>
-      <div class="col-xs-7" id="s7">A7</div>
-      <div class="col-xs-7" id="s8">A8</div>
-     </div>
+  <div class="announcement">
+  <br/>
+  <p id="regtitle">預約座位</p><br/><br/><br/><br/>
+     <div class="single">
+        <div class="singleseat ">
+           <div class="row">
+              <div class="col-xs-5" id="s1">A1</div>    
+              <div class="col-xs-5" id="s2">A2</div>
+              <div class="col-xs-5" id="s3">A3</div>
+              <div class="col-xs-5" id="s4">A4</div>
+           </div>
+           <div class="row">
+              <div class="col-xs-7" id="s5">A5</div>
+              <div class="col-xs-7" id="s6">A6</div>
+              <div class="col-xs-7" id="s7">A7</div>
+              <div class="col-xs-7" id="s8">A8</div>
+           </div>
      <div id="s9"></div>
      <div id="s10"></div>
      <div id="s11"></div>
