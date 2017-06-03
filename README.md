@@ -1,3 +1,46 @@
+<?php
+mysql_connect("localhost","root","webproject");//連結伺服器
+mysql_select_db("webproject");//選擇資料庫
+mysql_query("set names utf8");//以utf8讀取資料，讓資料可以讀取中文
+$data=mysql_query("select * from webproject");//從contact資料庫中選擇所有的資料表
+?>
+<?php
+require_once("connMysql.php");
+session_start();
+//檢查是否經過登入，若有登入則重新導向
+if(isset($_SESSION["loginMember"]) && ($_SESSION["loginMember"]!="")){
+	//若帳號等級為 member 則導向會員中心
+	if($_SESSION["memberLevel"]=="member"){
+		header("Location: member_center.php");
+	//否則則導向管理中心
+	}else{
+		header("Location: member_admin.php");	
+	}
+}
+//執行會員登入
+if(isset($_POST["username"]) && isset($_POST["passwd"])){
+	//繫結登入會員資料
+	$stmt=$db_link->prepare("SELECT id, password FROM login WHERE id=?");
+	$stmt->bind_param("s", $_POST["username"]);
+	$stmt->execute();
+	//取出帳號密碼的值綁定結果
+	$stmt->bind_result($username, $passwd);	
+	$stmt->fetch();
+	$stmt->close();
+	//比對密碼，若登入成功則呈現登入狀態
+	if(password_verify($_POST["passwd"],$passwd)){
+		//計算登入次數及更新登入時間
+		$stmt=$db_link->prepare("UPDATE login SET logintime=NOW(),state==”預約” WHERE id=?");
+	    $stmt->bind_param("s", $username);
+	    $stmt->execute();	
+	header("Location: 預約系統");	
+	    $stmt->close();
+    }else{
+		header("Location: index.php?errMsg=1");
+	}
+}
+?>
+
 <script type='text/javascript' src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
 <script type='text/javascript'>
 $(document).ready(function() {
