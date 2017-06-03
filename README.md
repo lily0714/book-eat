@@ -7,7 +7,7 @@ $data=mysql_query("select * from webproject");//從contact資料庫中選擇所�
 	$db_host = "localhost";
 	$db_username = "root";
 	$db_password = "webproject";
-	$db_name = "login";
+	$db_name = "webproject";
 	//連線資料庫
 	$db_link = new mysqli($db_host, $db_username, $db_password, $db_name);
 	//錯誤處理
